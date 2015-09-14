@@ -3,13 +3,13 @@
     "docsets": [
         {
             "docset_name": "new_newschema",
-            "build_output_sub_folder": "new/newschema",
+            "build_output_subfolder": "new/newschema",
             "locale": "en-us",
             "version": 0
         },
         {
             "docset_name": "new_fenxu",
-            "build_output_sub_folder": "new/fenxu",
+            "build_output_subfolder": "new/fenxu",
             "locale": "zh-cn",
             "version": 0
         }
