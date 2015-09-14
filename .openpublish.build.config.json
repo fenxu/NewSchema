@@ -1,6 +1,7 @@
 {
     "docset_files": [
-            "openpublishing/NewSchema/Docset.json"
+            "new/newschema/.openpublish.build.docset.json",
+            "new/fenxu/.openpublish.build.docset.json"
     ],
     "build_config": {
         "incremental": "true",
