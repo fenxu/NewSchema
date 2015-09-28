@@ -1,6 +1,6 @@
 {
     "docset_files": [
-            "new/newschema/.openpublish.build.docset.json",
-            "new/fenxu/.openpublish.build.docset.json"
+            "new/newschema/.openpublishing.build.docset.json",
+            "new/fenxu/.openpublishing.build.docset.json"
     ]
 }
