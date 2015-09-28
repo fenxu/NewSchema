@@ -2,13 +2,13 @@
     "build_entry_point": "",
     "docsets_to_publish": [
         {
-            "docset_name": "new_newschema",
+            "docset_name": "new_newschema1",
             "build_output_subfolder": "new/newschema",
             "locale": "en-us",
             "version": 0
         },
         {
-            "docset_name": "new_fenxu",
+            "docset_name": "new_fenxu1",
             "build_output_subfolder": "new/fenxu",
             "locale": "zh-cn",
             "version": 0
