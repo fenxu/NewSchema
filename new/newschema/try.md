@@ -42,3 +42,64 @@ Get the user's calendars. To get the user's default calendar, use the `client.Me
 Example: `client.Me.Calendars[calendarId].ExecuteAsync()`
 
 **Note** Calendar collections support query expressions such as **Select**, **OrderBy**, and **Take**.
+
+****
+
+<a name="GetEventsClient"></a>
+### Get events from the user's calendar (Client)
+
+Get the events from the user's default calendar. To get the events from a different calendar, call the calendar's **Events** property.
+
+Example: `outlookClient.Me.Calendars[calendarId].Events.ExecuteAsync()`
+
+
+**Attention** If you're accessing mailbox data on Outlook.com, do not use the client libraries and call the REST API directly.
+
+
+To get a particular event, you can specify the event ID as the index of the **Events** collection or use the **GetById** method.
+
+**Note** Event collections support query expressions such as **Select**, **OrderBy**, and **Take**.
+
+This example calls the method that [creates the Outlook Services client](#GetClient).
+
+<!-- BEGINSECTION class="tabbedCodeSnippets" data-resources="OutlookServices.Calendar" -->
+
+```cs-i
+var outlookClient = await CreateOutlookClientAsync("Calendar");
+var events = await outlookClient.Me.Events
+  .Take(10)
+  .ExecuteAsync();
+ 
+foreach(var calendarEvent in events.CurrentPage)
+{
+  System.Diagnostics.Debug.WriteLine("Event '{0}'.", calendarEvent.Subject);
+}
+ 
+```
+
+```javascript-i
+outlookClient.me.events.getEvents().fetch().then(function (result) {
+    result.currentPage.forEach(function (event) {
+console.log('Event "' + event.subject + '"')
+    });
+}, function(error) {
+    console.log(error);
+});
+```
+
+<!-- ENDSECTION -->
+
+
+This call returns the event series, not the individual expanded instances for recurring events (such as a weekly team meeting).
+
+Querying event instances is currently not supported in the client library. You can use the REST API to query the **CalendarView** property on the
+ Calendar resource or the **Instances** property on the Event resource:
+ 
+```no-highlight
+GET https://outlook.office.com/api/{version}/me/events/{event_id}/instances?startDateTime={start_datetime}&endDateTime={end_datetime}
+```
+ 
+<!--Update c# example to get instance-->
+<!--Update js example and remove note when this works in js-->
+
+****
