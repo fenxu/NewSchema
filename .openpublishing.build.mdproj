@@ -63,7 +63,7 @@
     </CreateProperty>
     <Message Text="NugetSource=$(NugetSource)" Condition="$(UseLatestPackage)" />
 
-    <Exec Command="&quot;$(ToolsFolder)NuGet\NuGet.exe&quot; list $(BuildTaskPackage) -Source &quot;$(NugetSource)&quot;" ConsoleToMSBuild="true" Condition="$(UseLatestPackage)">
+    <Exec Command="&quot;$(ToolsFolder)NuGet\NuGet.exe&quot; list $(BuildTaskPackage) -Source &quot;$(NugetSource)&quot; -NonInteractive" ConsoleToMSBuild="true" Condition="$(UseLatestPackage)">
       <Output TaskParameter="ConsoleOutput" PropertyName="LatestPackage" />
     </Exec>
     <ItemGroup Condition="$(UseLatestPackage)" >
