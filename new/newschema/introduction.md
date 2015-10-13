@@ -11,3 +11,7 @@ Coming soon!!!!!
 
 # Using Mark Down	
 This is quite easy.
+
+![Girl Image](img/girl.png)
+
+![Current Girl Image](girl.png)
