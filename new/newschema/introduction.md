@@ -7,7 +7,7 @@ ms.topic: Introduction
 
 # Introduction
 
-Coming soon!!!!!
+Coming soon !!!!! Kevin was here
 
 # Using Mark Down	
 This is quite easy.
