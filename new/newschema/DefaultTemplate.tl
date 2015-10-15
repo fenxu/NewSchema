@@ -12,13 +12,13 @@
     <title>{{title}}</title>
 
     <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
-    <link href="new/newschema/openpublish/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="new/newschema/openpublish/css/freelancer.css" rel="stylesheet">
+    <link href="css/freelancer.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href="new/newschema/openpublish/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
 </head>
 
@@ -82,21 +82,21 @@
         </div>
     </footer>
     <!-- jQuery -->
-    <script src="new/newschema/openpublish/js/jquery.js"></script>
+    <script src="js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="new/newschema/openpublish/js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 
     <!-- Plugin JavaScript -->
-    <script src="new/newschema/openpublish/js/classie.js"></script>
-    <script src="new/newschema/openpublish/js/cbpAnimatedHeader.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/cbpAnimatedHeader.js"></script>
 
     <!-- Contact Form JavaScript -->
-    <script src="new/newschema/openpublish/js/jqBootstrapValidation.js"></script>
-    <script src="new/newschema/openpublish/js/contact_me.js"></script>
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
 
     <!-- Custom Theme JavaScript -->
-    <script src="new/newschema/openpublish/js/freelancer.js"></script>
+    <script src="js/freelancer.js"></script>
 
 </body>
 
