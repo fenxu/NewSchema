@@ -3,7 +3,7 @@ Title: Introduction
 ms.ContentId: 92221808-3DDE-4F1A-BE34-DEB2E30F8A97
 ms.TocTitle: Introduction
 ms.topic: Introduction
-RenderingTemplate: templates/DefaultTemplate.tl
+RenderingTemplate: templates/FancyTemplate.tl
 ---
 
 # Introduction to Microsoft Azure DocumentDB
