@@ -53,6 +53,6 @@ DocumentDB’s indexing is designed for storage efficiency and to handle multi-t
 
 ##<a name="NextSteps"></a> Next steps
 - Download ["Schema-Agnostic Indexing with Azure DocumentDB"](http://www.vldb.org/pvldb/vol8/p1668-shukla.pdf), to be presented at the 41st Internal Conference on Very Large Databases, August 31 - September 4, 2015.
-- [Query with DocumentDB SQL](documentdb-sql-query.md)
-- Learn about how to customize the DocumentDB index [here](documentdb-indexing-policies.md)
+- [Query with DocumentDB SQL](faq.md)
+- Learn about how to customize the DocumentDB index [here](faq.md)
  
