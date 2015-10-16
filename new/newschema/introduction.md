@@ -97,5 +97,5 @@ If you don't have an Azure account, you can:
 Then, when you're ready to learn more, visit our [learning path](http://azure.microsoft.com/documentation/learning-paths/documentdb/) to navigate all the learning resources available to you. 
 
 
-[1]: ./media/documentdb-introduction/resources1.png
- 
+[1]: ./img/profile.png
+ -![Girl Image](img/girl.png)
