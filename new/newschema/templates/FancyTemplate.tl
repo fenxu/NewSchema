@@ -25,7 +25,7 @@
 <body id="page-top" class="index">
 
     <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top">
+    <nav class="navbar navbar-default navbar-fixed-top" style="background: #000;">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header page-scroll">
@@ -35,14 +35,14 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#page-top">{{title}}</a>
+                <a class="navbar-brand" href="#page-top" style="color:#fff">{{title}}</a>
             </div>
         </div>
         <!-- /.container-fluid -->
     </nav>
 
     <!-- About Section -->
-    <section class="success" id="about">
+    <section class="success" id="about" style="background: #AAA;">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
