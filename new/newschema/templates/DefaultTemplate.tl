@@ -46,6 +46,16 @@
         </div>
         <!-- /.container -->
     </nav>
+	
+    <section id="toc" class="intro-section" style="text-align:left">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                {% DocsToc %}
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- Intro Section -->
     <section id="intro" class="intro-section" style="text-align:left">
