@@ -33,7 +33,7 @@
 
 <body>
 
-    <div id="wrapper">
+    <div id="wrapper" style="background: #333;">
 
         <!-- Navigation -->
         <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
@@ -258,7 +258,7 @@
             </ul>
             <!-- /.navbar-top-links -->
 
-            <div class="navbar-default sidebar" role="navigation">
+            <div class="navbar-default sidebar" role="navigation" style="border: 1px solid">
                 <div class="sidebar-nav navbar-collapse" id="leftToc">
                     {% DocsToc %}
                 </div>
@@ -267,7 +267,7 @@
             <!-- /.navbar-static-side -->
         </nav>
 
-        <div id="page-wrapper" style="min-height: 830px;background: black;">
+        <div id="page-wrapper" style="min-height: 830px;background: #333;">
             <div class="row">
                 <div class="col-lg-12">
                     <h1 class="page-header">{{title}}</h1>
