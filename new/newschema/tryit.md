@@ -8,7 +8,7 @@ RenderingTemplate: templates/asp/asp.tl
 
 ( RenderingTemplate: templates/asp/asp.tl )
 
-# Try It!  Microsoft Azure DocumentDB 
+# Try It !  Microsoft Azure DocumentDB 
 
 ### Transactions and JavaScript execution
 DocumentDB allows you to write application logic as named programs written entirely in JavaScript. These programs are registered for a collection and can issue database operations on the documents within a given collection. JavaScript can be registered for execution as a trigger, stored procedure or user defined function. Triggers and stored procedures can create, read, update, and delete documents whereas user defined functions execute as part of the query execution logic without write access to the collection.
