@@ -352,6 +352,9 @@ Documentation hosted by <a href="https://readthedocs.com/">Read the Docs</a>.
 		$(document).ready(function(){
 			$("#leftToc > ul > li").addClass("toctree-l1");
 			$("#leftToc > ul > li > ul > li").addClass("toctree-l2");
+			$("#leftToc > ul > li").click(function(){
+				$(this).toggleClass("current");
+			});
 		});
 	</script> 
   
