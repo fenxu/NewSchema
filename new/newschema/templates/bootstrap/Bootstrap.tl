@@ -267,7 +267,7 @@
             <!-- /.navbar-static-side -->
         </nav>
 
-        <div id="page-wrapper" style="min-height: 830px;">
+        <div id="page-wrapper" style="min-height: 830px;background: black;">
             <div class="row">
                 <div class="col-lg-12">
                     <h1 class="page-header">{{title}}</h1>
