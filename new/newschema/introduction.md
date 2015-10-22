@@ -6,6 +6,8 @@ ms.topic: Introduction
 RenderingTemplate: templates/bootstrap/Bootstrap.tl
 ---
 
+( RenderingTemplate: templates/bootstrap/Bootstrap.tl )
+
 # Introduction to Microsoft Azure DocumentDB (kevin edited 11:15am)
 
 This article provides an introduction to Microsoft Azure DocumentDB, a fully-managed NoSQL document database service for developers, IT Pros, and business decision makers. 
