@@ -25,11 +25,11 @@
   
 
   
-    <link rel="stylesheet" href="./asp_files/sphinx_rtd_theme.css" type="text/css">
+    <link rel="stylesheet" href="./templates/asp/asp_files/sphinx_rtd_theme.css" type="text/css">
   
-    <link rel="stylesheet" href="./asp_files/custom.css" type="text/css">
+    <link rel="stylesheet" href="./templates/asp/asp_files/custom.css" type="text/css">
   
-    <link rel="stylesheet" href="./asp_files/readthedocs-doc-embed.css" type="text/css">
+    <link rel="stylesheet" href="./templates/asp/asp_files/readthedocs-doc-embed.css" type="text/css">
   
 
   
