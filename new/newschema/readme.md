@@ -8,7 +8,7 @@ RenderingTemplate: templates/DefaultTemplate.tl
 
 ( RenderingTemplate: templates/DefaultTemplate.tl )
 
-# Introduction to Microsoft Azure DocumentDB 
+# ReadMe on  Microsoft Azure DocumentDB 
 
 This article provides an introduction to Microsoft Azure DocumentDB, a fully-managed NoSQL document database service for developers, IT Pros, and business decision makers. 
 
