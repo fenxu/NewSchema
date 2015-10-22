@@ -6,7 +6,7 @@ ms.topic: Introduction
 RenderingTemplate: templates/asp/asp.tl
 ---
 
-[ RenderingTemplate: templates/asp/asp.tl ]
+( RenderingTemplate: templates/asp/asp.tl )
 
 # Introduction to Microsoft Azure DocumentDB 
 
