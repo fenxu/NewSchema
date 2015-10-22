@@ -303,13 +303,8 @@
 	<script>
 		$(document).ready(function(){
 			$("#leftToc > ul").addClass("nav").addClass("in");
-			$("#leftToc > ul > li > ul").addClass("nav").addClass("nav-second-level").addClass("collapse");
-			$("#leftToc > ul > li > ul > li > ul").addClass("nav").addClass("nav-third-level").addClass("collapse");
-			
-			$("#leftToc span.arrow").click(function()
-			{
-				$(this).parent().parent().children("ul").toggleClass("collapse");
-			});
+			$("#leftToc > ul > li > ul").addClass("nav").addClass("nav-second-level");
+			$("#leftToc > ul > li > ul > li > ul").addClass("nav").addClass("nav-third-level");
 		});
 	</script>
 
