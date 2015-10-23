@@ -1,5 +1,6 @@
-Learn about the Microsoft Intune service and find additional technical documentation for Intune.
+# Microsoft Intune Service Description
 
+Learn about the Microsoft Intune service and find additional technical documentation for Intune.
 
 ## Service Description
 Intune is a cloud-based service that helps you manage Windows PCs, and iOS, Android, and Windows mobile devices. Intune also helps protect corporate applications and data. You can use Intune alone or you can integrate it with System Center 2012 R2 Configuration Manager to extend your management capabilities.
