@@ -1,3 +1,11 @@
+---
+Title: MicrosoftIntuneServiceDescription
+ms.ContentId: 3dd39646-6468-4036-b395-c5a779bad873
+ms.TocTitle: MicrosoftIntuneServiceDescription
+ms.topic: MicrosoftIntuneServiceDescription
+RenderingTemplate: templates/asp/asp.tl
+---
+
 # Microsoft Intune Service Description
 
 Learn about the Microsoft Intune service and find additional technical documentation for Intune.
