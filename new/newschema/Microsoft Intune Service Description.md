@@ -54,6 +54,8 @@ Use these resources to learn more about Intune:
 
 ## See Also
 [Documentation Library for Microsoft Intune](Documentation+Library+for+Microsoft+Intune.md)
+
 [Documentation Library for System Center 2012 Configuration Manager](http://msdn.microsoft.com/en-us/library/33b7b516-2d32-4e55-bd79-ed7d3ea37162)
+
 [What's new in Microsoft Intune](What%27s+new+in+Microsoft+Intune.md)
 
