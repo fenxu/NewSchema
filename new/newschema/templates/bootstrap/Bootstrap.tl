@@ -35,7 +35,15 @@
     <style>
     body {
       size: 18px;
+      font-family: "segoe ui";
     }
+    h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+	    font-family: "segoe ui;
+	    font-weight: 500;
+	    line-height: 1.1;
+	    color: inherit;
+	    text-shadow: none;
+	}
       .breadCrumb>span>a, .breadCrumb>span>a:link, .breadCrumb>span>a:hover, .breadCrumb>span>a:visited {
     color: #656565;
     font-size: 18px;
