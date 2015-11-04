@@ -54,6 +54,19 @@ a {
     color: #000000;
     text-decoration: none;
 }
+.navbar {
+text-shadow: none;
+}
+
+.nav>li>a:hover, .nav>li>a:focus {
+    text-decoration: none;
+    background-color: white;
+}
+a:hover, a:focus {
+    color: black;
+    text-decoration: underline;
+}
+
     </style>
     <div id="wrapper">
 
