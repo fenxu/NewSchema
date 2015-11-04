@@ -32,11 +32,21 @@
 </head>
 
 <body>
-
+    <style>
+      .breadCrumb>span>a, .breadCrumb>span>a:link, .breadCrumb>span>a:hover, .breadCrumb>span>a:visited {
+    color: #656565;
+    font-size: 12px;
+    text-decoration: none;
+    }
+    .breadCrumb>span::after {
+    content: " > ";
+    margin-left: 2px;
+    }
+    </style>
     <div id="wrapper">
 
         <!-- Navigation -->
-        <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+        <nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0;">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                     <span class="sr-only">Toggle navigation</span>
@@ -48,7 +58,7 @@
             </div>
             <!-- /.navbar-header -->
 
-            <div class="navbar-default sidebar" role="navigation" style="border: 1px solid">
+            <div class="navbar-default sidebar" role="navigation" style="margin-top: 101px;">
                 <div class="sidebar-nav navbar-collapse" id="leftToc">
                     {% DocsToc %}
                 </div>
@@ -56,7 +66,13 @@
             </div>
             <!-- /.navbar-static-side -->
         </nav>
-
+        <div style="width: 100%; height: 50px;" class="breadCrumb">
+	        <span><a href="https://msdn.microsoft.com/es-es/library/windows/apps/hh703192.aspx" title="Documentation de Windows">Documentation</a></span>
+	        <span><a href="https://msdn.microsoft.com/es-es/library/windows/apps/br229519.aspx" title="EMS">EMS</a></span>
+	        <span><a href="https://msdn.microsoft.com/es-es/library/windows/apps/mt244353.aspx" title="Intune">Intune</a></span>
+	        <span><a href="https://msdn.microsoft.com/es-es/library/windows/apps/dn726537.aspx" title="Introduction">Introduction</a></span>
+	  </div>
+        </div>
         <div id="page-wrapper" style="min-height: 830px;">
             <div class="row">
                 <div class="col-lg-8">
