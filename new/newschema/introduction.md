@@ -22,7 +22,7 @@ Then, return to this article, where we'll dig in deeper and you'll learn the ans
 
 -	[What is DocumentDB and what value does it provide to cloud and mobile applications?](#what-is-azure-documentdb)
 -	[How is my data managed in DocumentDB and how do I access it?](#data-management)
--	[How do I develop applications using DocumentDB?](#develop)
+-	[How do I develop appalications using DocumentDB?](#develop)
 -	[What are my next steps to build a DocumentDB application?](#next-steps)  
 
 ### What is Azure DocumentDB?  
@@ -48,56 +48,6 @@ Azure DocumentDB offers the following key capabilities and benefits:
 -	**Open by design:** Get started quickly by using existing skills and tools. Programming against DocumentDB is simple, approachable, and does not require you to adopt new tools or adhere to custom extensions to JSON or JavaScript. You can access all of the database functionality including CRUD, query, and JavaScript processing over a simple RESTful HTTP interface. DocumentDB embraces existing formats, languages, and standards while offering high value database capabilities on top of them.
 
 You can use DocumentDB to store flexible datasets that require query retrieval and transactional processing. Application scenarios may include user data for interactive web and mobile applications as well as storage, retrieval, and processing of application JSON data. A database can store any number of JSON documents, as DocumentDB is well suited for applications that run at scale on the internet.
-
-###<a name="data-management"></a>Azure DocumentDB resources
-Azure DocumentDB manages data through well-defined database resources. These resources are replicated for high availability and are uniquely addressable by their logical URI. DocumentDB offers a simple HTTP based RESTful programming model for all resources. 
-
-The DocumentDB database account is a unique namespace that gives you access to Azure DocumentDB. Before you can create a database account, you must have an Azure subscription, which gives you access to a variety of Azure services. 
-
-All resources within DocumentDB are modeled and stored as JSON documents. Resources are managed as items, which are JSON documents containing metadata, and as feeds which are collections of items. Sets of items are contained within their respective feeds.
-
-The image below shows the relationships between the DocumentDB resources:
-
-![][1] 
-
-A database account consists of a set of databases, each containing multiple collections, each of which can contain stored procedures, triggers, UDFs, documents, and related attachments. A database also has associated users, each with a set of permissions to access various other collections, stored procedures, triggers, UDFs, documents, or attachments. While databases, users, permissions, and collections are system-defined resources with well-known schemas - documents, stored procedures, triggers, UDFs, and attachments contain arbitrary, user defined JSON content.  
-
-###<a name="develop"></a> Developing with Azure DocumentDB
-Azure DocumentDB exposes resources through a REST API that can be called by any language capable of making HTTP/HTTPS requests. Additionally, DocumentDB offers programming libraries for several popular languages. These libraries simplify many aspects of working with Azure DocumentDB by handling details such as address caching, exception management, automatic retries and so forth. Libraries are currently available for the following languages and platforms:  
-
-Download | Documentation
---- | ---
-[.NET SDK](http://go.microsoft.com/fwlink/?LinkID=402989) | [.NET library](https://msdn.microsoft.com/library/azure/dn948556.aspx)
-[Node.js SDK](http://go.microsoft.com/fwlink/?LinkID=402990) | [Node.js library](http://dl.windowsazure.com/documentDB/nodedocs/)
-[Java SDK](http://go.microsoft.com/fwlink/?LinkID=402380) | [Java library](http://dl.windowsazure.com/documentdb/javadoc/)
-[JavaScript SDK](http://go.microsoft.com/fwlink/?LinkID=402991) | [JavaScript library](http://dl.windowsazure.com/documentDB/jsclientdocs/)
-n/a | [Server-side JavaScript SDK](http://dl.windowsazure.com/documentDB/jsserverdocs/)
-[Python SDK](https://pypi.python.org/pypi/pydocumentdb) | [Python library](http://dl.windowsazure.com/documentDB/pythondocs/)
-
-Beyond basic create, read, update, and delete operations, DocumentDB provides a rich SQL query interface for retrieving JSON documents and server side support for transactional execution of JavaScript application logic. The query and script execution interfaces are available through all platform libraries as well as the REST APIs. 
-
-#### SQL query
-Azure DocumentDB supports querying documents using a SQL language, which is rooted in the JavaScript type system, and expressions with support for rich hierarchical queries. The DocumentDB query language is a simple yet powerful interface to query JSON documents. The language supports a subset of ANSI SQL grammar and adds deep integration of JavaScript object, arrays, object construction, and function invocation. DocumentDB provides its query model without any explicit schema or indexing hints from the developer.
-
-User Defined Functions (UDFs) can be registered with DocumentDB and referenced as part of a SQL query, thereby extending the grammar to support custom application logic. These UDFs are written as JavaScript programs and executed within the database. 
-
-For .NET developers, DocumentDB also offers a LINQ query provider as part of the [.NET SDK](https://msdn.microsoft.com/library/azure/microsoft.azure.documents.linq.aspx). 
-
-#### Transactions and JavaScript execution
-DocumentDB allows you to write application logic as named programs written entirely in JavaScript. These programs are registered for a collection and can issue database operations on the documents within a given collection. JavaScript can be registered for execution as a trigger, stored procedure or user defined function. Triggers and stored procedures can create, read, update, and delete documents whereas user defined functions execute as part of the query execution logic without write access to the collection.
-
-JavaScript execution within DocumentDB is modeled after the concepts supported by relational database systems, with JavaScript as a modern replacement for Transact-SQL. All JavaScript logic is executed within an ambient ACID transaction with snapshot isolation. During the course of its execution, if the JavaScript throws an exception, then the entire transaction is aborted.
-
-### Next steps
-If you already have an Azure account, you can get started with DocumentDB in the [Azure preview portal](https://portal.azure.com/#gallery/Microsoft.DocumentDB) by [creating a DocumentDB database account](introduction.md).
-
-If you don't have an Azure account, you can:
-
-- Sign up for an [Azure free trial](https://azure.microsoft.com/pricing/free-trial/), which gives you 30 days and $200 to try all the Azure services. 
-- If you have an MSDN subscription, you are eligible for [$150 in free Azure credits per month](http://azure.microsoft.com/pricing/member-offers/msdn-benefits-details/) to use on any Azure service. 
-
-Then, when you're ready to learn more, visit our [learning path](http://azure.microsoft.com/documentation/learning-paths/documentdb/) to navigate all the learning resources available to you. 
-
 
 [1]: ./img/profile.png
  -![Girl Image](img/girl.png)
