@@ -59,7 +59,8 @@
     .contribution ul {
     padding: 0;
     margin: 0;
-    list-style: none;float:left"
+    list-style: none;
+    line-height: 50px;
     }
     .contribution ul li {
     height: 25px;
@@ -111,7 +112,7 @@
                     <h1 class="page-header">{{title}}</h1>
                     <div class="contribution">
                     <span class="author-img" style="background-image:url(https://avatars3.githubusercontent.com/u/1422718?v=3&amp;s=50);background-repeat: no-repeat;      border-radius: 25px;      display: inline-block;      height: 50px;      width: 50px;"></span>
-		      <span>Jeff Gilber</span>
+		      <span style="margin-left: 10px;">Jeff Gilber</span>
 		      <span>3 min read</span>
 		      <span>Contributors</span>
 		      <ul>
