@@ -94,7 +94,7 @@ a:hover, a:focus {
             </div>
             <!-- /.navbar-header -->
 
-            <div class="navbar-default sidebar" role="navigation" style="margin-top: 121px;">
+            <div class="navbar-default sidebar" role="navigation" style="margin-top: 141px;">
                 <div class="sidebar-nav navbar-collapse" id="leftToc">
                     {% DocsToc %}
                 </div>
@@ -116,20 +116,22 @@ a:hover, a:focus {
 		    <div>{{content}}</div>
                 </div>
                 <div class="col-lg-4">
-                <div>
-		  <i class="fa fa-comment"></i>21 comments
-		</div>
-		<div>
-		  <i class="fa fa-square-o"></i>Share
-		</div>
-		<div>
-		  <i class="fa fa-eye"></i>Watch
-		</div>
-		<div>
-		  <i class="fa fa-slack"></i>Join our slack channel
-		</div>
-		<div>
-		  <i class="fa fa-github"></i>Edit on Github
+                <div style="margin-top: 40px;">
+	                <div>
+			  <i class="fa fa-comment" style="margin-bottom: 20px;"></i> 21 comments
+			</div>
+			<div>
+			  <i class="fa fa-square-o" style="margin-bottom: 20px;"></i> Share
+			</div>
+			<div>
+			  <i class="fa fa-eye" style="margin-bottom: 20px;"></i> Watch
+			</div>
+			<div>
+			  <i class="fa fa-slack" style="margin-bottom: 20px;"></i> Join our slack channel
+			</div>
+			<div>
+			  <i class="fa fa-github" style="margin-bottom: 20px;"></i> Edit on Github
+			</div>
 		</div>
 		</div>
                 <!-- /.col-lg-12 -->
