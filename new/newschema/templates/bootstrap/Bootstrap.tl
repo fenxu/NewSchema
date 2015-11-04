@@ -114,6 +114,7 @@ a:hover, a:focus {
 	        <span><a href="https://msdn.microsoft.com/es-es/library/windows/apps/br229519.aspx" title="EMS">EMS</a></span>
 	        <span><a href="https://msdn.microsoft.com/es-es/library/windows/apps/mt244353.aspx" title="Intune">Intune</a></span>
 	        <span><a href="https://msdn.microsoft.com/es-es/library/windows/apps/dn726537.aspx" title="Introduction">Introduction</a></span>
+	  	<span style="float: right;line-height: 50px;padding-right: 50px;">Was this topic useful?    <i class="fa fa-check-circle"></i>    Yes    <i class="fa fa-close"></i>    No</span>
 	  </div>
         </div>
         <div id="page-wrapper" style="min-height: 830px;">
