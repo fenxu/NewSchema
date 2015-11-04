@@ -39,10 +39,13 @@
       line-height: 30px;
       font-family:'Segoe UI Light', 'Segoe UI', Frutiger, Tahoma, Helvetica, Arial, sans-serif;
     }
+    p {
+      margin: 0 0 30px;
+    }
     h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	    font-family: 'Segoe UI Light', 'Segoe UI', Frutiger, Tahoma, Helvetica, Arial, sans-serif;
 	    font-weight: 500;
-	    line-height: 1.1;
+	    line-height: 3;
 	    color: #010101;
 	    text-shadow: none;
 	}
