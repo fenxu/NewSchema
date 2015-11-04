@@ -6,6 +6,7 @@
 
 body {
     background-color: #f8f8f8;
+    color: black;
 }
 
 #wrapper {
@@ -27,6 +28,9 @@ body {
     }
 }
 
+.navbar-default {
+  background-color: white;
+}
 .navbar-top-links {
     margin-right: 0;
 }
