@@ -33,6 +33,9 @@
 
 <body>
     <style>
+    body {
+      size: 18px;
+    }
       .breadCrumb>span>a, .breadCrumb>span>a:link, .breadCrumb>span>a:hover, .breadCrumb>span>a:visited {
     color: #656565;
     font-size: 18px;
@@ -67,7 +70,7 @@ a {
             </div>
             <!-- /.navbar-header -->
 
-            <div class="navbar-default sidebar" role="navigation" style="margin-top: 101px;">
+            <div class="navbar-default sidebar" role="navigation" style="margin-top: 121px;">
                 <div class="sidebar-nav navbar-collapse" id="leftToc">
                     {% DocsToc %}
                 </div>
