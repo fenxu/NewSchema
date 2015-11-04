@@ -35,6 +35,10 @@
     <style>
     .contribution span{
       float: left;
+      padding: 0 20px 20px 0;
+    }
+    .contribution span:after {
+      content: " • "
     }
     .contribution ul {
     padding: 0;
