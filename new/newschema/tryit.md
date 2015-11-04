@@ -3,7 +3,7 @@ Title: Introduction
 ms.ContentId: 92221808-3DDE-4F1A-BE34-DEB2E30F8A97
 ms.TocTitle: Introduction
 ms.topic: Introduction
-RenderingTemplate: templates/asp/asp.tl
+RenderingTemplate: templates/bootstrap/Bootstrap.tl
 ---
 
 ( RenderingTemplate: templates/asp/asp.tl )
