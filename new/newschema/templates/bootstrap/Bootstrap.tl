@@ -34,8 +34,9 @@
 <body>
     <style>
     body {
-      size: 18px;
-      font-size: 18px;
+      size: 20px;
+      font-size: 20px;
+      line-height: 30px;
       font-family:'Segoe UI Light', 'Segoe UI', Frutiger, Tahoma, Helvetica, Arial, sans-serif;
     }
     h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
