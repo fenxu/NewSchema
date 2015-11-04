@@ -110,11 +110,11 @@ div#ux-footer footer.bottom {
     clear: both;
 }
 div#ux-footer footer.bottom span.copyright {
-    font-size: .6875em;
-    line-height: 1.7em;
-    float: left;
+        float: right;
     margin-right: 20px;
     display: inline-block;
+    color: rgb(0, 0, 0);
+    font-family: 'Segoe UI Light', 'Segoe UI', Frutiger, Tahoma, Helvetica, Arial, sans-serif;
 }
     </style>
     <div id="wrapper">
@@ -215,8 +215,13 @@ div#ux-footer footer.bottom span.copyright {
         <footer class="bottom">
    
             <span class="logoLegal">
-                <span class="logo"></span>
-                <span class="copyright">© 2015 Microsoft</span>
+                <span class="copyright">Trademarks</span><span class="copyright">Terms of Use</span>
+<span class="copyright">Privacy Statement</span>
+                <span class="copyright" style="
+    /* color: rgb(0, 0, 0); */
+    /* display: block; */
+    /* font-family: 'Segoe UI Light', 'Segoe UI', Frutiger, Tahoma, Helvetica, Arial, sans-serif; */
+">Contact Us</span>
             </span>
         </footer>
     </div>
