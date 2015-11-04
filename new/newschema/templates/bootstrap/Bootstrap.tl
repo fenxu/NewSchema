@@ -119,7 +119,7 @@
                     <h1 class="page-header">{{title}}</h1>
                     <div class="contribution">
                     <span class="author-img" style="background-image:url(https://avatars3.githubusercontent.com/u/1422718?v=3&amp;s=50);background-repeat: no-repeat;      border-radius: 25px;      display: inline-block;      height: 50px;      width: 50px;"></span>
-		      <span style="margin-left: 10px;">Jeff Gilber</span>
+		      <span style="margin-left: 10px;">Jeff Gilbert</span>
 		      <span>3 min read</span>
 		      <span>Contributors</span>
 		      <ul>
