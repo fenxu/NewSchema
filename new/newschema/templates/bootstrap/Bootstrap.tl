@@ -59,19 +59,21 @@
 
         <div id="page-wrapper" style="min-height: 830px;">
             <div class="row">
-                <div class="col-lg-12">
+                <div class="col-lg-8">
                     <h1 class="page-header">{{title}}</h1>
+		    <div>{{content}}</div>
                 </div>
+                <div class="col-lg-4">
+		21 comments
+		</div>
                 <!-- /.col-lg-12 -->
             </div>
-            <!-- /.row -->
             <div class="row">
-                <div class="col-lg-12">
-		  {{content}}
-                </div>
                 <!-- /.col-lg-12 -->
+                <div class="col-lg-12">
+                firebase
+                </div>
             </div>
-            <!-- /.row -->
         </div>
         <!-- /#page-wrapper -->
 
