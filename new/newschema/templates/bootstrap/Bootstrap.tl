@@ -45,6 +45,7 @@
     height: 25px;
     width: 25px;
     background-size: 25px;
+    margin-top: 5px;
     }
     .contribution span:after {
       content: " • ";
