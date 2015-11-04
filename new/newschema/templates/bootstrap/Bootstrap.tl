@@ -35,13 +35,18 @@
     <style>
       .breadCrumb>span>a, .breadCrumb>span>a:link, .breadCrumb>span>a:hover, .breadCrumb>span>a:visited {
     color: #656565;
-    font-size: 12px;
+    font-size: 18px;
     text-decoration: none;
+    line-height: 50px;
     }
     .breadCrumb>span::after {
     content: " > ";
     margin-left: 2px;
     }
+    .breadCrumb>span:last-child::after {
+    content: "";
+    margin-left: 0;
+}
     </style>
     <div id="wrapper">
 
@@ -66,7 +71,7 @@
             </div>
             <!-- /.navbar-static-side -->
         </nav>
-        <div style="width: 100%; height: 50px;" class="breadCrumb">
+        <div style="width: 100%; height: 50px;padding-left: 15px;" class="breadCrumb">
 	        <span><a href="https://msdn.microsoft.com/es-es/library/windows/apps/hh703192.aspx" title="Documentation de Windows">Documentation</a></span>
 	        <span><a href="https://msdn.microsoft.com/es-es/library/windows/apps/br229519.aspx" title="EMS">EMS</a></span>
 	        <span><a href="https://msdn.microsoft.com/es-es/library/windows/apps/mt244353.aspx" title="Intune">Intune</a></span>
