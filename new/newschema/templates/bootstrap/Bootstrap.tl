@@ -33,7 +33,23 @@
 
 <body>
     <style>
-    
+    .contribution span{
+      float: left;
+    }
+    .contribution ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;float:left"
+    }
+    .contribution ul li {
+    height: 25px;
+    width: 25px;
+    float: left;
+    margin: 0 6px 0 0;
+    }
+    .contribution ul li a {
+    background-repeat: no-repeat;      border-radius: 12.5px;      display: inline-block;      height: 25px;      width: 25px;      background-size: 25px;"
+    }
     </style>
     <div id="wrapper">
 
@@ -73,7 +89,29 @@
             <div class="row">
                 <div class="col-lg-8">
                     <h1 class="page-header">{{title}}</h1>
-		    <div>{{content}}</div>
+                    <div class="contribution">
+		      <span>Jeff Gilber</span>
+		      <span>3 min read</span>
+		      <span>Contributors</span>
+		      <ul>
+                    <li>
+                        <a href="https://github.com/MattLaBelle" target="_blank" aria-label="Matt LaBelle" class="github-tooltip" ms.pgarea="content" ms.cmpgrp="body" ms.cmptyp="link" ms.cmpnm="" ms.title="" km.title="" ms.interactiontype="1">
+                            <span class="contributor-img" style="background-image:url(https://avatars3.githubusercontent.com/u/13123865?v=3&amp;s=25);></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/CamSoper" target="_blank" aria-label="Cam Soper" class="github-tooltip" ms.pgarea="content" ms.cmpgrp="body" ms.cmptyp="link" ms.cmpnm="" ms.title="" km.title="" ms.interactiontype="1">
+                            <span class="contributor-img" style="background-image:url(https://avatars3.githubusercontent.com/u/137648?v=3&amp;s=25)"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/SunnyDeng" target="_blank" aria-label="Sunny Deng" class="github-tooltip" ms.pgarea="content" ms.cmpgrp="body" ms.cmptyp="link" ms.cmpnm="" ms.title="" km.title="" ms.interactiontype="1">
+                            <span class="contributor-img" style="background-image:url(https://avatars3.githubusercontent.com/u/8811264?v=3&amp;s=25)"></span>
+                        </a>
+                    </li>
+                    </ul>
+                    </div>
+		    <div style="clear:both">{{content}}</div>
                 </div>
                 <div class="col-lg-4">
                 <div style="margin-top: 40px;">
