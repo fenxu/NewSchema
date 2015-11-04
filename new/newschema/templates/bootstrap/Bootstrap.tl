@@ -82,6 +82,16 @@ a:hover, a:focus {
 .page-header {
     border-bottom: 0px;
 }
+code {
+    padding: 2px 4px;
+    font-size: 90%;
+    color: black;
+    background-color: #eeeeee;
+    border-radius: 4px;
+}
+blockquote {
+    background: #eeeeee;
+}
     </style>
     <div id="wrapper">
 
