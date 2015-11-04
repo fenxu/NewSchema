@@ -91,6 +91,7 @@ a:hover, a:focus {
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" href="http://ironsummitmedia.github.io/startbootstrap-sb-admin-2/pages/index.html">Microsoft</a>
+                <a class="navbar-brand" style="float: right; padding-right: 50px">Common Header</a>
             </div>
             <!-- /.navbar-header -->
 
