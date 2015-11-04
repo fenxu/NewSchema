@@ -34,14 +34,15 @@
 <body>
     <style>
     body {
-      size: 18px;
-      font-family: "segoe ui";
+      size: 16px;
+      font-size: 16px;
+      font-family:'Segoe UI Light', 'Segoe UI', Frutiger, Tahoma, Helvetica, Arial, sans-serif;
     }
     h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-	    font-family: "segoe ui;
+	    font-family: 'Segoe UI Light', 'Segoe UI', Frutiger, Tahoma, Helvetica, Arial, sans-serif;
 	    font-weight: 500;
 	    line-height: 1.1;
-	    color: inherit;
+	    color: #010101;
 	    text-shadow: none;
 	}
       .breadCrumb>span>a, .breadCrumb>span>a:link, .breadCrumb>span>a:hover, .breadCrumb>span>a:visited {
