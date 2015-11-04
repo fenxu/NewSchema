@@ -38,7 +38,8 @@
       padding: 0 20px 20px 0;
     }
     .contribution span:after {
-      content: " • "
+      content: " • ";
+      margin-left: 10px;
     }
     .contribution span:last-child:after {
       content: ""
@@ -101,9 +102,9 @@
 		      <span>3 min read</span>
 		      <span>Contributors</span>
 		      <ul>
-                    <li>
+                      <li>
                         <a href="https://github.com/MattLaBelle" target="_blank" aria-label="Matt LaBelle" class="github-tooltip" ms.pgarea="content" ms.cmpgrp="body" ms.cmptyp="link" ms.cmpnm="" ms.title="" km.title="" ms.interactiontype="1">
-                            <span class="contributor-img" style="background-image:url(https://avatars3.githubusercontent.com/u/13123865?v=3&amp;s=25);></span>
+                            <span class="contributor-img" style="background-image:url(https://avatars3.githubusercontent.com/u/13123865?v=3&amp;s=25)"></span>
                         </a>
                     </li>
                     <li>
