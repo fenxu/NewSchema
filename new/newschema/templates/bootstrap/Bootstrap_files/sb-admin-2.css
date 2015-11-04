@@ -3,10 +3,97 @@
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
-
 body {
-    background-color: #ffffff;
+background-color: #ffffff;
+  color: black;
+  size: 20px;
+  font-size: 20px;
+  line-height: 30px;
+  font-family:'Segoe UI Light', 'Segoe UI', Frutiger, Tahoma, Helvetica, Arial, sans-serif;
+}
+p {
+  margin: 0 0 30px;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: 'Segoe UI Light', 'Segoe UI', Frutiger, Tahoma, Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    line-height: 3;
+    color: #010101;
+    text-shadow: none;
+}
+  .breadCrumb>span>a, .breadCrumb>span>a:link, .breadCrumb>span>a:hover, .breadCrumb>span>a:visited {
+color: #656565;
+font-size: 18px;
+text-decoration: none;
+line-height: 50px;
+}
+.breadCrumb>span::after {
+content: " > ";
+margin-left: 2px;
+}
+.breadCrumb>span:last-child::after {
+content: "";
+margin-left: 0;
+}
+a {
+    color: #000000;
+    text-decoration: none;
+}
+.navbar {
+text-shadow: none;
+}
+
+.nav>li>a:hover, .nav>li>a:focus {
+    text-decoration: none;
+    background-color: white;
+}
+
+.nav>li>a {
+  padding-left: 0px;
+}
+a:hover, a:focus {
     color: black;
+    text-decoration: underline;
+}
+.page-header {
+    border-bottom: 0px;
+}
+code {
+    padding: 2px 4px;
+    font-size: 90%;
+    color: black;
+    background-color: #eeeeee;
+    border-radius: 4px;
+}
+blockquote {
+    background: #eeeeee;
+}
+div#ux-footer {
+    display: block;
+    background-color: #eee;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 16px;
+    font-family: 'Segoe UI',Tahoma,Helvetica,Sans-Serif;
+}
+div#ux-footer footer.bottom {
+    display: block;
+    width: 97%;
+    margin: 0 auto;
+    padding: 100px 0;
+    position: relative;
+    line-height: 1;
+    clear: both;
+}
+div#ux-footer footer.bottom span.copyright {
+        float: right;
+    margin-right: 20px;
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    font-family: 'Segoe UI Light', 'Segoe UI', Frutiger, Tahoma, Helvetica, Arial, sans-serif;
+}
+body {
+
 }
 
 #wrapper {
