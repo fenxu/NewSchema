@@ -47,11 +47,15 @@
     content: "";
     margin-left: 0;
 }
+a {
+    color: #000000;
+    text-decoration: none;
+}
     </style>
     <div id="wrapper">
 
         <!-- Navigation -->
-        <nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0;">
+        <nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0;border-bottom: 0px; background: white;">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                     <span class="sr-only">Toggle navigation</span>
