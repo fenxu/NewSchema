@@ -92,6 +92,30 @@ code {
 blockquote {
     background: #eeeeee;
 }
+div#ux-footer {
+    display: block;
+    background-color: #eee;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 16px;
+    font-family: 'Segoe UI',Tahoma,Helvetica,Sans-Serif;
+}
+div#ux-footer footer.bottom {
+    display: block;
+    width: 97%;
+    margin: 0 auto;
+    padding: 45px 0;
+    position: relative;
+    line-height: 1;
+    clear: both;
+}
+div#ux-footer footer.bottom span.copyright {
+    font-size: .6875em;
+    line-height: 1.7em;
+    float: left;
+    margin-right: 20px;
+    display: inline-block;
+}
     </style>
     <div id="wrapper">
 
@@ -187,6 +211,14 @@ blockquote {
 	</script>
 
 
-
+<div id="ux-footer" class="" style="" dir="ltr">
+        <footer class="bottom">
+   
+            <span class="logoLegal">
+                <span class="logo"></span>
+                <span class="copyright">© 2015 Microsoft</span>
+            </span>
+        </footer>
+    </div>
 
 </body></html>
