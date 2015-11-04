@@ -104,7 +104,7 @@ div#ux-footer footer.bottom {
     display: block;
     width: 97%;
     margin: 0 auto;
-    padding: 45px 0;
+    padding: 100px 0;
     position: relative;
     line-height: 1;
     clear: both;
