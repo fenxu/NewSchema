@@ -58,7 +58,7 @@ a {
     <div id="wrapper">
 
         <!-- Navigation -->
-        <nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0;border-bottom: 0px; background: white;">
+        <nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0;border-bottom: 0px; background: #eeeeee;">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                     <span class="sr-only">Toggle navigation</span>
@@ -78,7 +78,7 @@ a {
             </div>
             <!-- /.navbar-static-side -->
         </nav>
-        <div style="width: 100%; height: 50px;padding-left: 15px;" class="breadCrumb">
+        <div style="width: 100%; height: 50px;padding-left: 15px;border-bottom: 1px solid black;" class="breadCrumb">
 	        <span><a href="https://msdn.microsoft.com/es-es/library/windows/apps/hh703192.aspx" title="Documentation de Windows">Documentation</a></span>
 	        <span><a href="https://msdn.microsoft.com/es-es/library/windows/apps/br229519.aspx" title="EMS">EMS</a></span>
 	        <span><a href="https://msdn.microsoft.com/es-es/library/windows/apps/mt244353.aspx" title="Intune">Intune</a></span>
