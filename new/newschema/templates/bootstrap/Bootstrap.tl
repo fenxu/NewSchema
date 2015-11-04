@@ -40,6 +40,9 @@
     .contribution span:after {
       content: " • "
     }
+    .contribution span:last-child:after {
+      content: ""
+    }
     .contribution ul {
     padding: 0;
     margin: 0;
