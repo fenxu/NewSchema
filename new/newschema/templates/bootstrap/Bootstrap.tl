@@ -53,6 +53,9 @@
     .contribution span:last-child:after {
       content: ""
     }
+    .contribution span:nth-last-child(2):after {
+      content: ""
+     }
     .contribution span:first-child:after {
       content: ""
     }
