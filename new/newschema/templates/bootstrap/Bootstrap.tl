@@ -38,6 +38,14 @@
       padding: 0 20px 20px 0;
       line-height: 50px;
     }
+    .contribution .contributor-img {
+    background-repeat: no-repeat;
+    border-radius: 12.5px;
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+    background-size: 25px;
+    }
     .contribution span:after {
       content: " • ";
       margin-left: 10px;
