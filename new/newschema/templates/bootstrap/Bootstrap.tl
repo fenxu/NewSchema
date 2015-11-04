@@ -34,8 +34,8 @@
 <body>
     <style>
     body {
-      size: 16px;
-      font-size: 16px;
+      size: 18px;
+      font-size: 18px;
       font-family:'Segoe UI Light', 'Segoe UI', Frutiger, Tahoma, Helvetica, Arial, sans-serif;
     }
     h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
@@ -75,7 +75,9 @@ a:hover, a:focus {
     color: black;
     text-decoration: underline;
 }
-
+.page-header {
+    border-bottom: 0px;
+}
     </style>
     <div id="wrapper">
 
@@ -114,7 +116,21 @@ a:hover, a:focus {
 		    <div>{{content}}</div>
                 </div>
                 <div class="col-lg-4">
-		21 comments
+                <div>
+		  <i class="fa fa-comment"></i>21 comments
+		</div>
+		<div>
+		  <i class="fa fa-square-o"></i>Share
+		</div>
+		<div>
+		  <i class="fa fa-eye"></i>Watch
+		</div>
+		<div>
+		  <i class="fa fa-slack"></i>Join our slack channel
+		</div>
+		<div>
+		  <i class="fa fa-github"></i>Edit on Github
+		</div>
 		</div>
                 <!-- /.col-lg-12 -->
             </div>
