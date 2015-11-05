@@ -141,7 +141,7 @@
                     </ul>
                     </div>
 		    <div style="clear:both">{{content}}</div>
-		    <div>
+		    <div style="margin-top: 80px">
 		    <!-- START: Livefyre Embed -->
 <div id="livefyre-comments"></div>
 <script type="text/javascript" src="http://zor.livefyre.com/wjs/v3.0/javascripts/livefyre.js"></script>
