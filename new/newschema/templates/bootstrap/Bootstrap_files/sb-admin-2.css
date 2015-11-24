@@ -21,17 +21,21 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     color: #010101;
     text-shadow: none;
 }
-  .breadCrumb>span>a, .breadCrumb>span>a:link, .breadCrumb>span>a:hover, .breadCrumb>span>a:visited {
+.breadCrumb>ul>li{
+    list-style-type: none;
+    display: inline;
+}
+.breadCrumb>ul>li>a, .breadCrumb>ul>li>a:link, .breadCrumb>ul>li>a:hover, .breadCrumb>ul>li>a:visited {
 color: #656565;
 font-size: 18px;
 text-decoration: none;
 line-height: 50px;
 }
-.breadCrumb>span::after {
+.breadCrumb>ul>li::after {
 content: " > ";
 margin-left: 2px;
 }
-.breadCrumb>span:last-child:after {
+.breadCrumb>ul>li:last-child:after {
 content: "";
 margin-left: 0;
 }
