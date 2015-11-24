@@ -19,7 +19,7 @@
     <!-- Custom CSS -->
     <link href="./templates/bootstrap/Bootstrap_files/sb-admin-2.css" rel="stylesheet">
 
-    <!-- Custom Fonts -->breadCrumb
+    <!-- Custom Fonts -->
     <link href="./templates/bootstrap/Bootstrap_files/font-awesome.min.css" rel="stylesheet" type="text/css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
