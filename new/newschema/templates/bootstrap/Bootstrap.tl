@@ -99,7 +99,7 @@
 
             <div class="navbar-default sidebar" role="navigation" style="margin-top: 141px;width: 350px;">
                 <div class="sidebar-nav navbar-collapse" id="leftToc">
-                    {% DocsToc %}
+                    {% toc %}
                 </div>
                 <!-- /.sidebar-collapse -->
             </div>
