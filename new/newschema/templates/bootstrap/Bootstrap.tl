@@ -106,7 +106,7 @@
             <!-- /.navbar-static-side -->
         </nav>
         <div style="width: 100%; height: 50px;padding-left: 50px;border-bottom: 1px solid black;" class="breadCrumb">
-		{% breadcrumb globaltoc.json %} 
+		{% breadcrumb %} 
 	  	<span style="float: right;line-height: 50px;padding-right: 50px;">Was this topic useful?    <i class="fa fa-check-circle"></i>    Yes    <i class="fa fa-close"></i>    No</span>
 	  </div>
         </div>
