@@ -444,5 +444,5 @@ table.dataTable thead .sorting:after {
 }
 
 ul {
-    -webkit-padding-start: 40px;
+    -webkit-padding-start: 0;
 }
