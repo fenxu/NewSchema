@@ -24,10 +24,7 @@ GET https://outlook.office365.com/api/{version}/me/calendars/{calendar_id}
 |version|string|The [version](#SupportedVersions) of the API.|
 |calendar_id|string|The calendar ID.|
 
-
-```REST-i
-[!RESTAPI [calendar_api_get_calendar_by_id](trydata/calendar_api_get_calendar_by_id.json)]
-```
+[!code-REST-i[calendar_api_get_calendar_by_id](trydata/calendar_api_get_calendar_by_id.json)]
 
 **Response type**
 

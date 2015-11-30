@@ -1,0 +1,24 @@
+﻿{
+  "build": {
+    "content":
+      [
+        {
+          "files": ["**/**.md"],
+          "exclude": ["**/obj/**"]
+        }
+      ],
+    "resource": [
+        {
+          "files": ["**/images/**", "**/*.png", "**/*.jpg", "**/*.json"],
+          "exclude": ["**/obj/**"]
+        }
+    ],
+    "externalReference": [
+    ],
+    "globalMetadata": {
+      "Ms.Locale": "en-us"
+    },
+    "dest": "new/newschema",
+    "template": "op.html"
+  }
+}
