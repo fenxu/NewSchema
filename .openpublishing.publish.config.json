@@ -21,5 +21,6 @@
                 "Conceptual": "Content"
             }
         }
-    ]
+    ],
+    "notification_subscribers": ["lianwei@microsoft.com", "fenxu@microsoft.com", "yih@microsoft.com"]
 }
