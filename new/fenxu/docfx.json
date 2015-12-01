@@ -9,7 +9,7 @@
       ],
     "resource": [
         {
-          "files": ["**/images/**", "**/*.png", "**/*.jpg", "**/calendar_api_get_calendar_by_id.json"],
+          "files": ["**/images/**", "**/*.png", "**/*.jpg"],
           "exclude": ["**/obj/**"]
         }
     ],
@@ -18,7 +18,7 @@
     "globalMetadata": {
       "Ms.Locale": "en-us"
     },
-    "dest": "new/newschema",
+    "dest": "new/fenxu",
     "template": "op.html"
   }
 }
