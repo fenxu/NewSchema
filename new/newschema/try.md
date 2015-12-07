@@ -15,7 +15,7 @@ _Required scope:  **Calendar.Read**_
 Get a calendar by ID. You can get the user's primary calendar by using the `../me/calendar` endpoint.
 
 ```http
-GET https://outlook.office365.com/api/{version}/me/calendars/{calendar_id}
+GET https://outlook.office365.com/api/{version}/me/calendars/{calendar_id} HTTP/1.1
 ```
 
 |**Required parameter**|**Type**|**Description**|
@@ -93,7 +93,7 @@ Querying event instances is currently not supported in the client library. You c
  Calendar resource or the **Instances** property on the Event resource:
  
 ```http
-GET https://outlook.office.com/api/{version}/me/events/{event_id}/instances?startDateTime={start_datetime}&endDateTime={end_datetime}
+GET https://outlook.office.com/api/{version}/me/events/{event_id}/instances?startDateTime={start_datetime}&endDateTime={end_datetime} HTTP/1.1
 ```
  
 <!--Update c# example to get instance-->
