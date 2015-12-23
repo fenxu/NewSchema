@@ -11,8 +11,7 @@ Title: Outlook Calendar REST API reference
 [!code-REST-i[calendar_api_get_calendar_by_id](trydata/calendar_api_get_calendar_by_id.json)]
 
 
-<a id="Code_table"> </a>
-## Code table
+## <a id="Code_table"> </a>Code table
 
 
 <!-- BEGINSECTION class="tabbedCodeSnippets" data-resources="OutlookServices.Calendar" -->
@@ -40,7 +39,7 @@ console.log('Event "' + event.subject + '"')
 <!-- ENDSECTION -->
 
 
-## NOTE
+## <a id="note"> </a>NOTE
 > [!NOTE]
 > This is NOTE
 
@@ -68,6 +67,7 @@ The above is CAUTION text
 
 If any question, please contact me~
 
+## <a id="responsive_table"> </a>Responsive Table
 Scenario  |Permission
 ------------- | ------------- |
 Password Sync| <li>Replicate Directory Changes.</li>  <li>Replicate Directory Changes All.</li>
