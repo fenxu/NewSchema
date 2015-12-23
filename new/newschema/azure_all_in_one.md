@@ -39,7 +39,7 @@ console.log('Event "' + event.subject + '"')
 <!-- ENDSECTION -->
 
 
-## <a id="note"> </a>NOTE
+##NOTE
 > [!NOTE]
 > This is NOTE
 
@@ -67,7 +67,7 @@ The above is CAUTION text
 
 If any question, please contact me~
 
-## <a id="responsive_table"> </a>Responsive Table
+## <a> </a>Responsive Table
 Scenario  |Permission
 ------------- | ------------- |
 Password Sync| <li>Replicate Directory Changes.</li>  <li>Replicate Directory Changes All.</li>
