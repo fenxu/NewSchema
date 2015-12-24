@@ -11,8 +11,7 @@ Title: Outlook Calendar REST API reference
 [!code-REST-i[calendar_api_get_calendar_by_id](trydata/calendar_api_get_calendar_by_id.json)]
 
 
-<a id="Code_table"> </a>
-## Code table
+## <a id="Code_table"> </a>Code table
 
 
 > [!div class="tabbedCodeSnippets" data-resources="OutlookServices.Calendar"]
@@ -36,7 +35,7 @@ console.log('Event "' + event.subject + '"')
 });
 ```
 
-## NOTE
+##NOTE
 > [!NOTE]
 > This is NOTE
 
@@ -63,3 +62,12 @@ The above is IMPORTANT text
 The above is CAUTION text
 
 If any question, please contact me~
+
+## <a> </a>Responsive Table
+Scenario  |Permission
+------------- | ------------- |
+Password Sync| <ul><li>Replicate Directory Changes.</li>  <li>Replicate Directory Changes All.</li></ul>
+Exchange Hybrid Deployment|See [Office 365 Exchange Hybrid AAD Sync write-back attributes and permissions](https://msdn.microsoft.com/library/azure/dn757602.aspx#exchange).
+Password Write-back | <ul><li>Change Password</li><li>Reset password</li></ul>
+User, Group, and Device Write-back|Write permissions to the directory objects and attributes that you wish to 'write-back'
+Single Sign-On and AD FS| Domain admin permissions in the domain in which your federated servers are located. 
