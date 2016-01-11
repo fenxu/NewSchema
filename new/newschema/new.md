@@ -13,11 +13,11 @@ In most cases this error occurs because IIS is not configured correctly.
 
 For information about deploying to IIS 8 with an MVC 5 app, see [Publishing to IIS](https://docs.asp.net/en/latest/publishing/iis.html).
 
-For information about deploying to IIS7.5, see [Remote Debugging ASP.NET on a Remote IIS 7.5 Computer](./mt621540.aspx).
+For information about deploying to IIS7.5, see [Remote Debugging ASP.NET on a Remote IIS 7.5 Computer](https://msdnstage.redmond.corp.microsoft.com/en-US/library/mt621540.aspx).
 
 ### Make sure the Visual Studio Remote Tools are installed ###
 
-If you are trying to debug on a remote Web server, the Visual Studio Remote Tools must be installed. For information about downloading and installing the remote tools, see [Remote Debugging](./y7f5zaaa.aspx).
+If you are trying to debug on a remote Web server, the Visual Studio Remote Tools must be installed. For information about downloading and installing the remote tools, see [Remote Debugging](https://msdnstage.redmond.corp.microsoft.com/en-US/library/y7f5zaaa.aspx).
 
 ### Make sure ASP.NET is installed ###
 
@@ -71,4 +71,4 @@ If you still get an error message when you start debugging, you may want to try 
 
 ### See Also ###
 
-[Debugging Web Applications: Errors and Troubleshooting](./h35f56yz.aspx)
+[Debugging Web Applications: Errors and Troubleshooting](https://msdnstage.redmond.corp.microsoft.com/en-US/library/h35f56yz.aspx)
