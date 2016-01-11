@@ -44,8 +44,6 @@ To re-register ASP.NET
 
  2. Insert the Visual Studio disc, run the setup program, and select Repair/Reinstall. This step will create the wwwroot$ share and add the appropriate permissions.
 
-####
-
 - Is the site name mapped to the local loopback address while Integrated Authentication is turned on? See this Knowledge Base article for a resolution.
 - Is the URL for the project start page properly specified? Are the extension and project directory correct?
 - Verify the IIS settings for the Web application. For more information see How to: Verify IIS Property Settings.
