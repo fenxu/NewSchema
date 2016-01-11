@@ -38,11 +38,11 @@ Try checking the following things:
 
 To re-register ASP.NET
 
- 1.. From a command prompt window, run the following command: `systemroot\Microsoft.NET\Framework\ versionNumber \aspnet_regiis -i`
+ 1. From a command prompt window, run the following command: `systemroot\Microsoft.NET\Framework\ versionNumber \aspnet_regiis -i`
 
-**Note**   With Windows Server 2003, you can install ASP.NET using the Add or Remove Programs Control Panel.
+  > **Note**   With Windows Server 2003, you can install ASP.NET using the Add or Remove Programs Control Panel.
 
- 2.. Insert the Visual Studio disc, run the setup program, and select Repair/Reinstall. This step will create the wwwroot$ share and add the appropriate permissions.
+ 2. Insert the Visual Studio disc, run the setup program, and select Repair/Reinstall. This step will create the wwwroot$ share and add the appropriate permissions.
 
 ####
 
@@ -92,19 +92,19 @@ If `enable` is set to **FALSE**, the application runs under inetinfo.exe.
 
 To check which process an ATL Server application runs under
 
-`1`. In Solution Explorer, right-click the project name and choose **Properties** from the shortcut menu.
+1. In Solution Explorer, right-click the project name and choose **Properties** from the shortcut menu.
 
-`2`. In the <Project> Property Pages dialog box, open the **Web Deployment** folder and choose **General**.
+2. In the <Project> Property Pages dialog box, open the **Web Deployment** folder and choose **General**.
 
-`3`. Look at the **Application Protection** setting.
+3. Look at the **Application Protection** setting.
 
-If the setting is **Low (IIS Process)**, the application runs under inetinfo.exe.
+   If the setting is **Low (IIS Process)**, the application runs under inetinfo.exe.
 
-If the setting is **Medium (Pooled)**, the application runs under a dllhost.exe process (in common with other pooled ATL Server applications).
+   If the setting is **Medium (Pooled)**, the application runs under a dllhost.exe process (in common with other pooled ATL Server applications).
 
-In the setting is **High (Isolated)**, the application runs under a dllhost.exe process (separate from other ATL Server applications).
+   In the setting is **High (Isolated)**, the application runs under a dllhost.exe process (separate from other ATL Server applications).
 
-`4`. Click **OK** to close the **<Project> Property Pages** dialog box.
+4. Click **OK** to close the **<Project> Property Pages** dialog box.
 
 ### See Also ###
 
