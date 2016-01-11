@@ -63,7 +63,7 @@ If the Web application is on a remote server, first make sure you have gone thro
 
 If the Web application is stored in Visual SourceSafe and uses FrontPage Server Extensions as its Web Access mode, check the following:
 
-- Is Visual SourceSafe located on the same machine as the FrontPage Server/Web server? If so, you can debug using Integrated Authentication. To check the Integrated Authentication setting, see the procedure **To check IIS security settings for the web application** located in the following topic: [How to: Verify IIS Property Settings](.ms165023.aspx).
+- Is Visual SourceSafe located on the same machine as the FrontPage Server/Web server? If so, you can debug using Integrated Authentication. To check the Integrated Authentication setting, see the procedure **To check IIS security settings for the web application** located in the following topic: [How to: Verify IIS Property Settings](https://msdnstage.redmond.corp.microsoft.com/en-US/library/ms165023.aspx).
 
 ### Debug Request Could Not Be Processed By the Server Due to Invalid Syntax ###
 
@@ -76,9 +76,9 @@ If you follow the troubleshooting steps and still get an error message when you 
 To manually attach
 
 1. Start the application without debugging. (From the **Debug** menu, choose **Start Without Debugging**.)
-2. Determine the name of the appropriate IIS process or worker process. ATL Server applications are named inetinfo.exe by default. To determine the name of the ASP.NET worker process, see [How to: Find the Name of the ASP.NET Process](./ms241730.aspx). 
+2. Determine the name of the appropriate IIS process or worker process. ATL Server applications are named inetinfo.exe by default. To determine the name of the ASP.NET worker process, see [How to: Find the Name of the ASP.NET Process](https://msdnstage.redmond.corp.microsoft.com/en-US/library/ms241730.aspx). 
 Use one of the following procedures to determine which process an ASP.NET or ATL Server application runs under.
-4. Attach to the process determined by the preceding step. For more information, see [636d0a52-4bfd-48d2-89ad-d7b9ca4dc4f4](./dwesw3ee(VS.140).aspx#NotExistJustToMakeTheAElementVisible).
+4. Attach to the process determined by the preceding step. For more information, see [636d0a52-4bfd-48d2-89ad-d7b9ca4dc4f4](https://msdnstage.redmond.corp.microsoft.com/en-US/library//dwesw3ee(VS.140).aspx#NotExistJustToMakeTheAElementVisible).
 
 To check which process an ASP.NET application runs under
 
@@ -108,8 +108,8 @@ In the setting is **High (Isolated)**, the application runs under a dllhost.exe 
 
 ### See Also ###
 
-[Debugging Web Applications: Errors and Troubleshooting](./h35f56yz.aspx)
+[Debugging Web Applications: Errors and Troubleshooting](https://msdnstage.redmond.corp.microsoft.com/en-US/library/h35f56yz.aspx)
 
-[Preparing to Debug ASP.NET](./ms165006.aspx)
+[Preparing to Debug ASP.NET](https://msdnstage.redmond.corp.microsoft.com/en-US/library/ms165006.aspx)
 
-[Error: The Web Server Could Not Find the Requested Resource](./ms165025.aspx)
+[Error: The Web Server Could Not Find the Requested Resource](https://msdnstage.redmond.corp.microsoft.com/en-US/library/ms165025.aspx)
