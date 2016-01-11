@@ -46,7 +46,7 @@ To re-register ASP.NET
 - Verify the IIS settings for the Web application. For more information see How to: Verify IIS Property Settings.
 - If you have two versions of the .NET Framework installed on the Web server, verify the correct version is set in the IIS Settings. For more information see How to: Verify IIS Property Settings. 
 
-### Web Applications on Remote Servers ###
+### <a name="vxtbshttpservererrorswebapplicationsonremoteservers"></a>Web Applications on Remote Servers ###
 
 If the Web application is on a remote server, first make sure you have gone through the items in Things to Check. Next check the following:
 
@@ -54,7 +54,7 @@ If the Web application is on a remote server, first make sure you have gone thro
 - Do you have the necessary access privileges for debugging? For more information see the Security Requirements section in ASP.NET Debugging: System Requirements.
 - Are you using Terminal Server to try to debug a Web application on a remote machine? Remote debugging of native Web applications using Terminal Server is supported under Windows XP. It is not supported under Windows 2000 or Windows NT.
 
-### Web Applications Stored in Visual SourceSafe and Using FrontPage Server Extensions ###
+### <a name="vxtbshttpservererrorswebapplicationsstoredinvisualsourcesafeandusingfrontpageserverextensions"></a>Web Applications Stored in Visual SourceSafe and Using FrontPage Server Extensions ###
 
 If the Web application is stored in Visual SourceSafe and uses FrontPage Server Extensions as its Web Access mode, check the following:
 
@@ -64,7 +64,7 @@ If the Web application is stored in Visual SourceSafe and uses FrontPage Server 
 
 Sometimes, the server cannot process a debug request due to bad syntax. Bad request syntax may be caused by mistakes in the machine.config file. If the machine.config file sets `maxRequestLength` to a ridiculously large value (40,960,000, for example), this error occurs.
 
-### Manually Attaching ###
+### <a name="vxtbshttpservererrorsmanuallyattaching"></a>Manually Attaching ###
 
 If you follow the troubleshooting steps and still get an error message when you start debugging, you may want to try debugging your application by manually attaching.
 
