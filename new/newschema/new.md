@@ -39,7 +39,7 @@ For IIS 8, you install ASP.NET as part of IIS.
 
 For IIS 7.5 and earlier: from a command prompt window, run the following command:
 
-	systemroot\Microsoft.NET\Framework\ versionNumber \aspnet_regiis -i 
+	%systemroot%\Microsoft.NET\Framework\versionNumber\aspnet_regiis -i
 
 ### Basic Troubleshooting ###
 
