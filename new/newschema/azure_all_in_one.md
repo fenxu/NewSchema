@@ -4,15 +4,14 @@ title: This is page title
 
 # Outlook Calendar REST API reference
 
+# Include syntax
+[!INCLUDE [Introduction md](introduction.md)]
+
 
 ## <a id="Swagger"> </a> Swagger
 
 
 [!code-REST-i[calendar_api_get_calendar_by_id](trydata/calendar_api_get_calendar_by_id.json)]
-
-# Inline Code-snipped
-
-this [!code-REST-i[calendar_api_get_calendar_by_id](trydata/calendar_api_get_calendar_by_id.json)] asdfas
 
 ## <a id="Code_table"> </a>Code table
 
