@@ -16,7 +16,7 @@ title: This is page title
 ## <a id="ABCCodefasdfasdf_table" />ABCCode table
 
 > [!div class="tabbedCodeSnippets" data-resources="OutlookServices.Calendar"]
-> ```cs-i
+```cs-i
 var outlookClient = await CreateOutlookClientAsync("Calendar");
 var events = await outlookClient.Me.Events
   .Take(10)
@@ -26,7 +26,7 @@ foreach(var calendarEvent in events.CurrentPage)
   System.Diagnostics.Debug.WriteLine("Event '{0}'.", calendarEvent.Subject);
 }
 ```
-> ```javascript-i
+```javascript-i
 outlookClient.me.events.getEvents().fetch().then(function (result) {
     result.currentPage.forEach(function (event) {
 console.log('Event "' + event.subject + '"')
