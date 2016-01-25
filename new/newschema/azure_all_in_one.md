@@ -7,6 +7,7 @@ title: This is page title
 # Include syntax
 [!INCLUDE [Introduction md](introduction.md)]
 
+This is include text: [!INCLUDE [Introduction md](introduction.md)] hello world
 
 ## <a id="Swagger"> </a> Swagger
 
