@@ -1,5 +1,7 @@
 log/
 xhtml/
-packages/
 obj/
 _site/
+
+.optemp/
+.openpublishing.buildcore.ps1
