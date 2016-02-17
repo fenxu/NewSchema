@@ -38,3 +38,9 @@ console.log('*  ' + emailAddress.address);
 a. hello
 b. test
 c. asdfa
+
+### OA vedio 
+<iframe width="640" height="360" src="https://channel9.msdn.com/Series/DevOps-Release-Management/Release-Management-Overview/player" frameborder="0" allowfullscreen="true"></iframe>
+
+### Azure vedio
+<iframe width="640" height="360" src="https://channel9.msdn.com/Events/Microsoft-Azure/AzureCon-2015/ACON203/player" frameborder="0" allowfullscreen="true"></iframe>
