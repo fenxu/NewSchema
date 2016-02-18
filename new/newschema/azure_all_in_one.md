@@ -42,7 +42,7 @@ console.log('Event "' + event.subject + '"')
 ## <a id="ABCCodefasdfasdf_table" />code snip
 
 > [!div class="tabbedCodeSnippets"]
-```cs-i
+```cs
 var outlookClient = await CreateOutlookClientAsync("Calendar");
 var events = await outlookClient.Me.Events
   .Take(10)
@@ -52,7 +52,7 @@ foreach(var calendarEvent in events.CurrentPage)
   System.Diagnostics.Debug.WriteLine("Event '{0}'.", calendarEvent.Subject);
 }
 ```
-```javascript-i
+```javascript
 outlookClient.me.events.getEvents().fetch().then(function (result) {
     result.currentPage.forEach(function (event) {
 console.log('Event "' + event.subject + '"')
