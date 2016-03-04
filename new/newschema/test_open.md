@@ -47,3 +47,8 @@ c. asdfa
 
 ## Azure video
 <iframe width=""640"" height=""360"" src=""https://channel9.msdn.com/Series/Azure-Active-Directory-Videos-Demos/Azure-AD--Introduction-to-Dynamic-Memberships-for-Groups/player/"" frameborder=""0"" allowfullscreen=""true""></iframe>
+
+## Video inside blockquote
+> <iframe width="0" height="0" src="https://channel9.msdn.com/Series/Azure-Active-Directory-Videos-Demos/Azure-AD--Introduction-to-Dynamic-Memberships-for-Groups/player/" frameborder="0" allowfullscreen="true"></iframe>
+>
+>
