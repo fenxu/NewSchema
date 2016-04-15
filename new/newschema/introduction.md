@@ -13,6 +13,11 @@ Coming soon !!!!! Kevin was here
  <!-- Content that will go into two columns. -->
 </div>
 
+<div class="twocolumnstyle">
+ This is the first line content.
+ This is the second line content.
+</div>
+
 # Using Mark Down	
 This is quite easy.
 
