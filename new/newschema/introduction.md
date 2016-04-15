@@ -14,8 +14,9 @@ Coming soon !!!!! Kevin was here
 </div>
 
 <div class="twocolumnstyle">
- This is the first line content.
- This is the second line content.
+This is the first line content.
+
+This is the second line content.
 </div>
 
 # Using Mark Down	
