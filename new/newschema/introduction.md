@@ -9,6 +9,10 @@ ms.topic: Introduction
 
 Coming soon !!!!! Kevin was here
 
+<div class="twocolumnstyle">
+ <!-- Content that will go into two columns. -->
+</div>
+
 # Using Mark Down	
 This is quite easy.
 
