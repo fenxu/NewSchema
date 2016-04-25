@@ -2,7 +2,7 @@
 # required metadata
 
 title: Client | Azure RMS
-description: The AD RMS Client 2.1 is software designed for your client computers to help protect access to and usage of information
+description: The AD_RMS_Client 2.1 is software designed for your client computers to help protect access to and usage of information
 keywords:
 author: bruceperlerms
 manager: mbaldwin
