@@ -1,6 +1,6 @@
 ---
 # required metadata
-
+ms.contentid: {BB8401FB-652A-406B-8920-4BD8977BFE68}
 title: Client | Azure RMS
 description: The AD_RMS_Client 2.1 is software designed for your client computers to help protect access to and usage of information
 keywords:
