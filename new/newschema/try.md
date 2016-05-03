@@ -29,7 +29,7 @@ GET https://outlook.office365.com/api/{version}/me/calendars/{calendar_id} HTTP/
 **Response type**
 
 ****
-
+### 中文标题
 <a name="GetCalendarsClient"> </a>
 ###Get a calendar collection or a calendar (Client)
 
@@ -85,7 +85,7 @@ console.log('Event "' + event.subject + '"')
 ```
 
 <!-- ENDSECTION -->
-### 中文标题
+
 
 This call returns the event series, not the individual expanded instances for recurring events (such as a weekly team meeting).
 
