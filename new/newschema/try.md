@@ -46,7 +46,7 @@ Example: `client.Me.Calendars[calendarId].ExecuteAsync()`
 ### Get events from the user's calendar (Client)
 
 Get the events from the user's default calendar. To get the events from a different calendar, call the calendar's **Events** property.
-
+## にほんごにほん
 Example: `outlookClient.Me.Calendars[calendarId].Events.ExecuteAsync()`
 
 
@@ -85,7 +85,7 @@ console.log('Event "' + event.subject + '"')
 ```
 
 <!-- ENDSECTION -->
-## にほんごにほん
+
 
 This call returns the event series, not the individual expanded instances for recurring events (such as a weekly team meeting).
 
