@@ -19,3 +19,5 @@
 <1dssaf>
 
 <gasdf/&81234%^&@#$%^&*(>
+
+<collector ... minlog="verbose">
