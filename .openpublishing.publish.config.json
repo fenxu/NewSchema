@@ -3,7 +3,7 @@
     "docsets_to_publish": [
         {
             "docset_name": "new_newschema2",
-            "build_output_subfolder": "new/newschema",
+            "build_output_subfolder": "/new/newschema",
             "locale": "en-us",
             "version": 0, 
             "open_to_public_contributors": "true",
@@ -13,7 +13,7 @@
         },
         {
             "docset_name": "new_fenxu2",
-            "build_output_subfolder": "new/fenxu",
+            "build_output_subfolder": "/new/fenxu",
             "locale": "zh-cn",
             "version": 0, 
             "open_to_public_contributors": "true",
