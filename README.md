@@ -1,7 +1,7 @@
->     this is code with because there're many white spaces at the beginning
+>     this is **code** because there're many *white spaces* at the beginning
 >     [All the link won't be translated](link_to_article)
 
->  This is not code because the white spaces is less than four.
+>  This is not **code** because the *white spaces is* less than four.
 >  [All the link will be translated](link_to_article)
 
 
