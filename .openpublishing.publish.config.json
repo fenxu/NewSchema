@@ -22,5 +22,5 @@
             }
         }
     ],
-    "notification_subscribers": ["lianwei@microsoft.com", "fenxu@microsoft.com", "yih@microsoft.com"]
+    "notification_subscribers": ["fenxu@microsoft.com"]
 }
