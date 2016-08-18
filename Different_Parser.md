@@ -1,5 +1,4 @@
 # Different parser between github and docfx
 
-## The following part is different between GitHub html and docfx html
+html content write in GitHub
 <p>[Hello](hello.md)</p>
-[Hello](hello.md)
