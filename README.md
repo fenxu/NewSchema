@@ -1,3 +1,11 @@
+
+> [AZURE.NOTE] If you have a few moments, please help us to improve the Azure Linux VM documentation by taking this [quick survey](https://aka.ms/linuxdocsurvey) of your experiences. Every answer helps us help you get your work done.
+
+
+[AZURE.INCLUDE [learn-about-deployment-models](../../includes/learn-about-deployment-models-both-include.md)]
+
+To create these types of files for use on a Windows computer to communicate securely with Linux VMs in Azure, see [Use SSH keys on Windows](virtual-machines-linux-ssh-from-windows.md). 
+
 >     this is **code** because there're many *white spaces* at the beginning
 >     [All the link won't be translated](link_to_article)
 
