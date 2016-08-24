@@ -16,3 +16,7 @@ This is quite easy.
 ![Girl Image](img/girl.png)
 
 ![Current Girl Image](girl.png)
+
+[!INCLUDE [token include](token.md)]
+
+End of topic.
