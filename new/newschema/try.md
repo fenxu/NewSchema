@@ -7,6 +7,8 @@ ms.date: July 13, 2015
 
 # Outlook Calendar REST API reference
 
+fine
+
 <a name="GetCalendar"> </a>
 ###Get a calendar (REST)
 
