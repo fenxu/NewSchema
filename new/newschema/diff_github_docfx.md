@@ -9,3 +9,6 @@ Escape markdown charactor inside html
 
 
 Cuased by the escape markdown character "\", the **<** before at the beginning of '</strong>' is shown. And not recognized as a closed tag.
+
+[this is anchor with upper case](b.md#A)
+[this is anchor with lower case](b.md#a)
