@@ -1,3 +1,7 @@
+# title
+
+## Download the code from GitHub
+The code for this tutorial is maintained [on GitHub](git@github.com:Azure-Samples/active-directory-android-native-oidcandroidlib-v2.git).  To follow along, you can  [download the app's skeleton as a .zip](git@github.com:Azure-Samples/active-directory-android-native-oidcandroidlib-v2.git/archive/skeleton.zip) or clone the skeleton:
 
 > [AZURE.NOTE] If you have a few moments, please help us to improve the Azure Linux VM documentation by taking this [quick survey](https://aka.ms/linuxdocsurvey) of your experiences. Every answer helps us help you get your work done.
 
