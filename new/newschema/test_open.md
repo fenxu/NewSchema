@@ -42,6 +42,9 @@ c. asdfa
 ### OA video 
 <iframe width="640" height="360" src="https://channel9.msdn.com/Series/DevOps-Release-Management/Release-Management-Overview/player" frameborder="0" allowfullscreen="true"></iframe>
 
+### Duncan's video
+<div class="embeddedvideo"><iframe width="640" height="360" src="https://channel9.msdn.com/Events/Microsoft-Azure/AzureCon-2015/ACON203/player" frameborder="0" allowfullscreen="true"></iframe></div>
+
 ### Azure video
 <iframe width="640" height="360" src="https://channel9.msdn.com/Events/Microsoft-Azure/AzureCon-2015/ACON203/player" frameborder="0" allowfullscreen="true"></iframe>
 
