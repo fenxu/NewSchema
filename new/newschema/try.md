@@ -102,3 +102,13 @@ GET https://outlook.office.com/api/{version}/me/events/{event_id}/instances?star
 <!--Update js example and remove note when this works in js-->
 
 ****
+
+
+> [!div class="tabbedCodeSnippets" data-resources="OutlookServices.Calendar"]
+> ```cs
+> <cs code text>
+> ```
+> ```javascript
+> <js code text>
+> ```
+
